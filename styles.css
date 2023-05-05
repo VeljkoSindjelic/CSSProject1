@@ -44,7 +44,6 @@ body {
     flex-direction: column;
     height: 120px;
     width: 700px;
-    align-items: center;
     justify-content: flex-start;
 }
 .exclamation {
@@ -57,11 +56,12 @@ body {
     font-weight: 100;
     color: lightgray;
 }
-
 .signup {
-    border-radius: 20px;
-    background-color: blue;
-    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(66, 137, 230);
+    width: 100px;
 }
 .rightsubheader {
     display: flex;
