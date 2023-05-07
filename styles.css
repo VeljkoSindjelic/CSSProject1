@@ -1,6 +1,16 @@
 * {
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: system-ui;
+}
+.header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+.links {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
 }
