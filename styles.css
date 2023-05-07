@@ -68,24 +68,17 @@
 .box {
     border-radius: 25px;
     height: 100px;
-    width: 100px;
+    width: 100%;
     background-color: white;
     border: solid black;
 }
-.bod1 {
+.bod {
     font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: red;
-}
-.bod2 {
-    background-color: yellow;
-}
-.bod3 {
-    background-color: green;
-}
-.bod4 {
-    background-color: blue;
 }
