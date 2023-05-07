@@ -41,3 +41,51 @@
     align-items: center;
     flex: 1;
 }
+.body-one {
+    background-color: yellow;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.body-one-up {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-one-down {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: space-between;
+}
+.box {
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: solid black;
+}
+.bod1 {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.bod2 {
+    background-color: yellow;
+}
+.bod3 {
+    background-color: green;
+}
+.bod4 {
+    background-color: blue;
+}
