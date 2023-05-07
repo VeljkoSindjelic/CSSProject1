@@ -7,10 +7,37 @@
 .header {
     background-color: yellow;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .links {
     display: flex;
     width: 800px;
     justify-content: space-between;
+}
+.subheader {
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subheader-left {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subheader-right {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
