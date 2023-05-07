@@ -82,3 +82,20 @@
     align-items: center;
     background-color: red;
 }
+.body-two {
+    background-color: green;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body-two-up {
+    background-color: yellow;
+}
+.body-two-down {
+    background-color: brown;
+    display: flex;
+    justify-content: right;
+}
