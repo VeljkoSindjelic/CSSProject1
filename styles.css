@@ -33,8 +33,20 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.sub-head-one {
+    
+}
+.sub-head-two {
+    
+}
 .sub-head-three {
     background-color: #3882F6;
+    display: flex;
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
 }
 .subheader-right {
     background-color: gray;
