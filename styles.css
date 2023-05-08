@@ -11,10 +11,16 @@
     padding-left: 200px;
     padding-right: 200px;
 }
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
 .links {
     display: flex;
     width: 800px;
     justify-content: space-between;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .subheader {
     padding-left: 200px;
@@ -34,19 +40,23 @@
     justify-content: space-between;
 }
 .sub-head-one {
-    
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 .sub-head-two {
-    
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .sub-head-three {
     background-color: #3882F6;
+    color: white;
     display: flex;
     width: 150px;
     height: 30px;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .subheader-right {
     background-color: gray;
@@ -55,6 +65,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .body-one {
     background-color: white;
@@ -72,7 +84,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .body-one-down {
     background-color: white;
     display: flex;
@@ -116,6 +127,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.body-three-right-signup {
+    background-color:#3882F6;
+    color: white;
+    display: flex;
+    width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 .body-three-container {
     background-color: #3882F6;
