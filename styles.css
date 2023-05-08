@@ -33,7 +33,7 @@
 }
 .subheader-left {
     background-color: #1f2937;
-    height: 100px;
+    height: 200px;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -60,7 +60,7 @@
 }
 .subheader-right {
     background-color: gray;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
