@@ -131,9 +131,15 @@
     flex-direction: column;
     justify-content: center;
 }
+.body-two-up {
+    font-size: 36px;
+    font-style: italic;
+}
 .body-two-down {
     display: flex;
     justify-content: right;
+    font-weight: bolder;
+    font-size: 20px;
 }
 .body-three {
     padding-left: 300px;
