@@ -8,8 +8,9 @@
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 20px;
 }
 .logo {
     font-size: 24px;
@@ -23,8 +24,8 @@
     color: #e5e7eb;
 }
 .subheader {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 320px;
+    padding-right: 320px;
     height: 500px;
     background-color: #1f2937;
     display: flex;
@@ -70,8 +71,8 @@
 }
 .body-one {
     background-color: white;
-    padding-left: 300px;
-    padding-right: 400px;
+    padding-left: 450px;
+    padding-right: 450px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -124,8 +125,8 @@
 }
 .body-two {
     background-color: #e5e7eb;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 450px;
+    padding-right: 450px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -142,8 +143,8 @@
     font-size: 20px;
 }
 .body-three {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 320px;
+    padding-right: 320px;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -163,13 +164,24 @@
 .body-three-container {
     background-color: #3882F6;
     width: 1700px;
-    height: 100px;
+    height: 200px;
     border-radius: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}.footer {
-    background-color: ;
+}
+.btlup {
+    font-size: 20px;
+    color: white;
+}
+.btld {
+    color: white;
+}
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
     display: flex;
+    height: 60px;
     justify-content: center;
+    align-items: center;
 }
